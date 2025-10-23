@@ -1,0 +1,250 @@
+/* Mobile Devices (max-width: 600px) */
+@media (max-width: 600px) {
+  body, html {
+    font-size: 14px;
+  }
+  nav {
+    flex-direction: row;
+    height: auto;
+    padding: 8vw 4vw;
+  }
+  nav h1 {
+    font-size: 8vw;
+  }
+  nav button{
+    font-size: 3vw;
+    padding: 2vw 3vw;
+    font-weight: 800;
+  }
+  nav .nav-part2 {
+    display: none;
+  }
+ #nav-bottom{
+    display: none;
+ }
+
+  .page1{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4vw;
+  }
+  .page1 h1 {
+    font-size: 45px;
+    line-height: 9vw;
+    letter-spacing: 0.1vw;
+    padding: 0 5px;
+  }
+  .page1 svg {
+    width: 45px;
+    height: 45px;
+  }
+  .page1 p{
+    font-size: 14px;
+    line-height: 1.6em;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .page1 .page1-end h4{
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  .moving-div {
+    width: 100%;
+    height: 10vw;
+    animation: moveUpDown 3s ease-in-out infinite;
+    position: absolute;
+    top: 70%;
+}
+.page2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.page2-left{
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page2-left h3{
+
+    font-size: 20px;
+    line-height: 1.2em;
+    width: 100vh;
+
+}
+.page2-left p{
+    width: 1000px;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-top: 140px;
+}
+.page2-right{
+    width: 100%;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page3{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    padding: 0 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.page3 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page4{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+.page5 {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.page5-top{
+    padding: 0 10px;
+}
+
+.page5-bottom{
+    padding: 0 10px;
+}
+.page5-bottom {
+    flex-direction: row-reverse;
+    padding-bottom: 30px;
+}
+.page6{
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.page6-left {
+    height: auto;
+    margin-top: 30px;
+    width: auto;
+}
+.page6-left button{
+    font-size: 15px;
+    padding: 13px 15px;
+    font-size: 900;
+}
+.page6-right{
+    margin-top: 60px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+}
+#span{
+    font-size: 16px;
+    font-weight: 900;
+    padding-right: 130px;
+}
+.page6-right p{
+    font-size: 16px;
+    line-height: 1.6em;
+};
+.page6-flex-container p{
+    font-size: 6px;
+}
+.flex-item h3{
+    font-size: 14px;
+}
+.flex-item p{
+    font-size: 10px;
+    line-height: 1.4em;
+}
+
+.page7{
+    width: auto;
+    height: auto;
+    padding: 60px 0px;
+}
+.page7 h1 {
+    font-size: 3.2em;
+    line-height: 1em;
+}
+.page7-left-content .button{
+    font-size: 16px;
+    padding: 12px 16px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page7-content-right p{
+    font-size: 8px;
+    line-height: 1.2em;
+}
+#page7-bottom{
+    height: auto;
+    width: auto;
+}
+#btm7-part2{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+#btm7-part2 h5{
+    font-size: 12px;
+}
+#btm7-part3{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+#btm7-part3 h5{
+    font-size: 12px;
+}
+#btm7-part3 h4{
+    font-size: 8px;
+    padding: 5px 18px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 12px;
+}
+#btm7-part2 h4{
+    font-size: 7px;
+    line-height: 1.4em;
+    width: 130px;
+}
+#btm7-part4 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+#btm7-part4 h5{
+    font-size: 12px;
+}
+#btm7-part4 h4{
+    font-size: 7px;
+    width: 90px;
+}
+
+.page8{
+    display: none;
+}
+}
